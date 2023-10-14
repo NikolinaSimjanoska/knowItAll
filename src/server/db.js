@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const connectDB = () => {
-    const mongoDB = 'mongodb+srv://marija:maca2401@cluster0.4woseix.mongodb.net/'; // Replace with your actual MongoDB cluster connection string
+    const mongoDB = 'mongodb+srv://nixi2126:115155@cluster0.pooyjtt.mongodb.net/spletne'; // Replace with your actual MongoDB cluster connection string
   
     mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true })
       .then(() => {
